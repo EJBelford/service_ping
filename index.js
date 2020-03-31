@@ -4,15 +4,15 @@ var rect = {
 };
     
 function solveRect(l,w) {
-    console.log("Solving for rectangle with i = " + l + "and w = " + w);
+    console.log("Solving for rectangle with i = " + l + " and w = " + w);
     
     if (l <= 0 || w <= 0) {
         console.log("");
     } 
     else {
-        console.log("The arra of the rectangle is " + rect.area(l,w));
+        console.log("The area of the rectangle is " + rect.area(l,w));
         console.log("The perimeter of the rectangle is " + rect.perimeter(l,w));
     }
 };    
 
-sovleRect(2,4);
+solveRect(2,4);
